@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk-Bold.woff') format('woff');
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    align-items: stretch;
+    min-height: 100vh;
+}
+
+.left, .right {
+    margin: 20px;
+    flex: 1;
+    flex-basis: 50%;
+}
+
+.left {
+    border-radius: 10px;
+    background: #F4F4F9;
+}
+
+.right {}
+
+.logo {
+    margin: 26px 36px;
+}
+
+.logo>img {
+    width: 150px;
+}
+
+.hero {
+    /* Position */
+    position: relative;
+    left: 115px;
+    top: 50px;
+}
+
+.hero>.header {
+    /* Font */
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.hero>.text {
+    margin: 20px 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.button-messenger {
+    display: inline-block;
+    padding: 23px 55px;
+    background: #0084FF;
+    border-radius: 8px 8px 8px 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+}
+
+.button-messenger svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.button-zajem {
+    border-radius: 8px;
+    background: #80FFA7;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 156%;
+    display: inline-block;
+    padding: 10px 19px;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.entita {
+    align-self: center;
+}
