@@ -1,0 +1,10 @@
+Emilia:
+
+- Zmenšit logo velikost odpovídá Emilia
+- Zmenšit texty všechny
+- Sladit buttony
+- Zvětšit text v buttonech
+- Centrovat tmavě modrou tečku
+- hello@ava.digital mailto
+Responzivní verze - viz. Emilia
+favicon

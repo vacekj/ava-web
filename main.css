@@ -4,6 +4,8 @@
     src: url('fonts/SpaceGrotesk-Bold.woff') format('woff');
 }
 
+/* Resets and defaults */
+
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -13,10 +15,55 @@ a {
     text-decoration: none;
 }
 
+/* Header */
+
+.header {
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo>img {
+    width: 64px;
+}
+
+.button-zajem {
+    float: right;
+    border-radius: 8px;
+    background: #80FFA7;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 19px;
+}
+
 #container {
     display: flex;
     align-items: stretch;
     min-height: 100vh;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        flex-wrap: wrap-reverse;
+        margin-top: 100px;
+    }
+    .header {
+        padding: 30px;
+    }
+    .hero {
+        margin: 50px!important;
+    }
+    .left, .right {
+        border-radius: 0px !important;
+        margin: 0!important;
+    }
 }
 
 .left, .right {
@@ -30,28 +77,16 @@ a {
     background: #F4F4F9;
 }
 
-.right {}
-
-.logo {
-    margin: 26px 36px;
-}
-
-.logo>img {
-    width: 64px;
-}
-
 .hero {
-    /* Position */
-    position: relative;
-    left: 115px;
-    top: 50px;
+    display: block;
+    margin: 100px;
 }
 
-.hero>.header {
+.hero-header {
     /* Font */
     font-family: "Space Grotesk", sans-serif;
     font-size: 36px;
-    line-height: 1.25;  
+    line-height: 1.25;
 }
 
 .hero>.text {
@@ -83,25 +118,8 @@ a {
 }
 
 .right {
-    position: relative;
     display: flex;
     justify-content: center;
-}
-
-.button-zajem {
-    border-radius: 8px;
-    background: #80FFA7;
-    color: black;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 27px;
-    display: inline-block;
-    padding: 10px 19px;
-    margin: 10px;
-    position: absolute;
-    right: 0;
-    top: 0;
 }
 
 .entita {
