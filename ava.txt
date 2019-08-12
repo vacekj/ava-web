@@ -6,5 +6,5 @@ Emilia:
 - Zvětšit text v buttonech
 - Centrovat tmavě modrou tečku
 - hello@ava.digital mailto
-Responzivní verze - viz. Emilia
-favicon
+- Responzivní verze - viz. Emilia
+- favicon
