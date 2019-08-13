@@ -94,7 +94,7 @@ header {
     line-height: 1.25;
 }
 
-.hero>.text {
+.hero-text {
     margin: 20px 0;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
