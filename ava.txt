@@ -13,5 +13,5 @@ Emilia:
 - fade na liště bg white zakrývá pouze chat viz https://attimofashion.cz/katalog
 - ava velikost = emilia
 - hero uprostřed
-a srovnat button s emiliou
-na mobilu jen avaentita nahoře a chat
+- a srovnat button s emiliou
+na mobilu jen ava-entita nahoře a chat dole

@@ -133,6 +133,7 @@ header {
 .button {
     padding: 10px 19px;
     border-radius: 8px;
+    transition: .3s all;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-size: 18px;
@@ -145,11 +146,19 @@ header {
     color: black;
 }
 
+.button--zajem:hover {
+    background-color: #87df90;
+}
+
 .button--messenger {
     display: inline-block;
     background: #0084FF;
     color: white;
     margin: 5px;
+}
+
+.button--messenger:hover {
+    background: rgb(0, 106, 206);
 }
 
 .button--messenger svg {
