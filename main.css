@@ -150,6 +150,7 @@ header {
     padding: 8px 24px;
     background: #80FFA7;
     color: black;
+    font-weight: bold;
 }
 
 .button--zajem:hover {
