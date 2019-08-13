@@ -99,10 +99,6 @@ header {
     background: #F4F4F9;
 }
 
-.hero {
-    width: 80%;
-}
-
 .hero__header {
     /* Font */
     font-family: "Space Grotesk", sans-serif;
@@ -162,7 +158,7 @@ header {
     display: inline-block;
     background: #0084FF;
     color: white;
-    margin: 5px;
+    margin-right: 5px;
 }
 
 .button--messenger:hover {

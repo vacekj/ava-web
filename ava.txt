@@ -8,7 +8,7 @@ Emilia:
 - hello@ava.digital mailto
 - Responzivní verze - viz. Emilia
 - favicon
-? footer
+- footer
 - margin na konci .left
 - fade na liště bg white zakrývá pouze chat viz https://attimofashion.cz/katalog
 - ava velikost = emilia
