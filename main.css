@@ -176,6 +176,8 @@ header {
 /* Chatbot */
 
 .button--chatbot--action {
+    /* Dočasné skrytí */
+    display: none;
     background: #FFFFFF;
     color: #000000;
     margin: 5px;
