@@ -109,6 +109,12 @@ header {
     line-height: 1.25;
 }
 
+.hero__header svg {
+    width: 18px;
+    height: 18px;
+    margin: 10px 5px;
+}
+
 .hero__text {
     margin: 20px 0;
     font-family: "Open Sans", sans-serif;
