@@ -186,3 +186,20 @@ header {
     border-radius: 8px 8px 8px 0;
     outline: 0;
 }
+
+/* Footer */
+
+footer {
+    color: gray;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 0 !important
+}
+
+* {
+    scrollbar-width: none;
+}
