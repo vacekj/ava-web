@@ -34,7 +34,7 @@ header {
     width: 100%;
 }
 
-.header-flex-wrapper {
+.header__flex-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +48,7 @@ header {
 
 /* Main */
 
-#container {
+.container {
     display: flex;
     align-items: stretch;
     min-height: 100vh;
@@ -56,11 +56,11 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
-    #container {
+    .container {
         flex-wrap: wrap-reverse;
         margin-top: 100px;
     }
-    div.header-flex-wrapper {
+    div.header__flex-wrapper {
         margin: 20px 30px;
     }
     div.hero {
@@ -87,14 +87,14 @@ header {
     margin: 100px;
 }
 
-.hero-header {
+.hero__header {
     /* Font */
     font-family: "Space Grotesk", sans-serif;
     font-size: 36px;
     line-height: 1.25;
 }
 
-.hero-text {
+.hero__text {
     margin: 20px 0;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -111,7 +111,7 @@ header {
 
 /* Buttons */
 
-.button-messenger {
+.button--messenger {
     display: inline-block;
     background: #0084FF;
     color: white;
@@ -123,12 +123,12 @@ header {
     line-height: 27px;
 }
 
-.button-messenger svg {
+.button--messenger svg {
     display: inline-block;
     vertical-align: middle;
 }
 
-.button-zajem {
+.button--zajem {
     padding: 10px 19px;
     border-radius: 8px;
     background: #80FFA7;
