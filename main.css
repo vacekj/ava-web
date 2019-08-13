@@ -17,35 +17,31 @@ a {
 
 /* Header */
 
-.header {
-    padding: 30px 50px;
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
-    align-items: center;
+}
+
+.header-flex-wrapper {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 30px 50px;
 }
 
 .logo>img {
     width: 64px;
 }
 
-.button-zajem {
-    float: right;
-    border-radius: 8px;
-    background: #80FFA7;
-    color: black;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 10px 19px;
-}
+/* Main */
 
 #container {
     display: flex;
     align-items: stretch;
     min-height: 100vh;
-    position: relative;
-    top: -100px;
     z-index: -1;
 }
 
@@ -54,15 +50,15 @@ a {
         flex-wrap: wrap-reverse;
         margin-top: 100px;
     }
-    .header {
-        padding: 30px;
+    div.header-flex-wrapper {
+        margin: 20px 30px;
     }
-    .hero {
-        margin: 50px!important;
+    div.hero {
+        margin: 50px;
     }
-    .left, .right {
-        border-radius: 0px !important;
-        margin: 0!important;
+    div.left, div.right {
+        border-radius: 0px;
+        margin: 0;
     }
 }
 
@@ -98,6 +94,17 @@ a {
     line-height: 30px;
 }
 
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+.entita {
+    align-self: center;
+}
+
+/* Buttons */
+
 .button-messenger {
     display: inline-block;
     padding: 23px 55px;
@@ -117,11 +124,14 @@ a {
     vertical-align: middle;
 }
 
-.right {
-    display: flex;
-    justify-content: center;
-}
-
-.entita {
-    align-self: center;
+.button-zajem {
+    float: right;
+    border-radius: 8px;
+    background: #80FFA7;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 19px;
 }

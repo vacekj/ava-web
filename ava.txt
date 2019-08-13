@@ -8,3 +8,4 @@ Emilia:
 - hello@ava.digital mailto
 - Responzivní verze - viz. Emilia
 - favicon
+? footer
