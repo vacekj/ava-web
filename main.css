@@ -1,3 +1,13 @@
+/* Layout Properties (position, float, clear, display) */
+
+/* Box Model Properties (width, height, margin, padding) */
+
+/* Visual Properties (color, background, border, box-shadow) */
+
+/* Typography Properties (font-size, font-family, text-align, text-transform) */
+
+/* Misc Properties (cursor, overflow, z-index) */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @font-face {
     font-family: 'Space Grotesk';
@@ -20,8 +30,8 @@ a {
 header {
     position: fixed;
     top: 0;
-    width: 100%;
     display: flex;
+    width: 100%;
 }
 
 .header-flex-wrapper {
@@ -63,9 +73,8 @@ header {
 }
 
 .left, .right {
+    flex-grow: 1;
     margin: 20px;
-    flex: 1;
-    flex-basis: 50%;
 }
 
 .left {
@@ -97,26 +106,21 @@ header {
 .right {
     display: flex;
     justify-content: center;
-}
-
-.entita {
-    align-self: center;
+    align-items: center;
 }
 
 /* Buttons */
 
 .button-messenger {
     display: inline-block;
-    padding: 23px 55px;
     background: #0084FF;
-    border-radius: 8px;
     color: white;
+    padding: 15px 19px;
+    border-radius: 8px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-size: 18px;
     line-height: 27px;
-    display: inline-block;
-    padding: 15px 19px;
 }
 
 .button-messenger svg {
@@ -125,7 +129,7 @@ header {
 }
 
 .button-zajem {
-    float: right;
+    padding: 10px 19px;
     border-radius: 8px;
     background: #80FFA7;
     color: black;
@@ -133,5 +137,4 @@ header {
     font-style: normal;
     font-size: 18px;
     line-height: 27px;
-    padding: 10px 19px;
 }
