@@ -43,11 +43,11 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 30px 50px;
+    margin: 48px;
 }
 
 .header__flex-wrapper img {
-    width: 64px;
+    height: 35.70px;
 }
 
 /* Main */
@@ -64,11 +64,19 @@ header {
     .container {
         margin-top: 100px;
     }
+    header {
+        padding-bottom: 30px;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 65%, rgba(255, 255, 255, 0) 100%);
+    }
     div.header__flex-wrapper {
         margin: 20px 30px;
     }
     div.hero {
-        margin: 50px;
+        margin: 20px;
+    }
+    div.left {
+        flex-basis: 80%;
     }
     div.left, div.right {
         border-radius: 0px;
@@ -78,17 +86,20 @@ header {
 
 .left, .right {
     flex-grow: 1;
-    margin: 20px;
+    flex-basis: 40%;
+    margin: 16px;
 }
 
 .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     background: #F4F4F9;
 }
 
 .hero {
-    display: block;
-    margin: 100px 20px 0 100px;
+    width: 80%;
 }
 
 .hero__header {
@@ -113,6 +124,10 @@ header {
     align-items: center;
 }
 
+.entita, .entita svg {
+    width: 92%;
+}
+
 /* Buttons */
 
 .button {
@@ -125,6 +140,7 @@ header {
 }
 
 .button--zajem {
+    padding: 8px 24px;
     background: #80FFA7;
     color: black;
 }

@@ -9,10 +9,9 @@ Emilia:
 - Responzivní verze - viz. Emilia
 - favicon
 ? footer
-margin na konci .left
-fade na liště bg white zakrývá pouze chat viz https://attimofashion.cz/katalog
-ava velikost = emilia
-hero uprostřed
-fix vertikalní centrování loga a zvětšit na úroveň emilie 
+- margin na konci .left
+- fade na liště bg white zakrývá pouze chat viz https://attimofashion.cz/katalog
+- ava velikost = emilia
+- hero uprostřed
 a srovnat button s emiliou
 na mobilu jen avaentita nahoře a chat
