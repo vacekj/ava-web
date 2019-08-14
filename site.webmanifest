@@ -1,6 +1,7 @@
 {
     "name": "Ava",
     "short_name": "Ava",
+    "description": "Ava - automatizujeme prodeje a zákaznickou péči v Messengeru",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
